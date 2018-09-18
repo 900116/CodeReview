@@ -21,6 +21,8 @@ Every Commit
 通过Phabricator软件，参照下面的review条款，进行review 
 ```
 
+[!Phabricator客户端安装](https://www.jianshu.com/p/b347c44749ca)
+
 ``` 
 代码必须通过其他人的review才能提交
 ```
