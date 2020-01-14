@@ -367,7 +367,8 @@ self.completionHandler = ^{
 
 __weak typeof(self) weakSelf = self; 
 self.completionHandler = ^{ 
-	 __weak typeof(self) strongSelf = self;
+    __strong typeof(self) strongSelf = self;
+self.completionHandler = ^{ 
     NSLog(@"%@", strongSelf); 
     [strongSelf someAction];
 }; 
